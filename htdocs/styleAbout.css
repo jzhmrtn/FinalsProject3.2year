@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(images/bg.jpg);
+
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url(images/bg.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    flex-basis: 60%;
+    
+}
+
+.main h1 {
+    /* font-family: "verdana"; */
+
+}
+
+.shoeman p {
+    width: 100%;
+    flex-basis: 50%;
+    text-align: center;
+    height: 60%;
+    font-size: 15vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+
+}
+
+.about-us {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+
+}
+
+.about-col {
+    flex-basis: 50%;
+    padding: 30px 2px;
+    display: flex;
+        
+}
+
+.about-col h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.about-col p {
+    font-family: "Poppins";
+
+}
+
+.about-col .text {
+    min-width: 50%;
+    max-width: 50%;
+    padding: 80px 90px;
+    font-size: 2.5vh;
+ 
+}
+
+.about-col img {
+    width: 15%;
+    height: 15%;
+    position: relative;
+    right: -5%;
+    padding: 80px 90px;
+
+}
+
+.ateam {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.ateam h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5vh;
+
+}
+
+.ateam p {
+    font-family: "Poppins";
+
+}
+
+.ateam .txteam {
+    min-width: 40%;
+    max-width: 40%;
+    position: relative;
+    text-align: left;
+    font-size: 2.5vh;
+    padding: 80px 90px;
+    height: 100%;
+    left: -5%;
+
+}
+
+.teampic img {
+    width: 60%;
+    height: 60%;
+
+}
+
+.inno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    border-bottom: 5px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+.inno h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5vh;
+
+}
+
+.inno p {
+    font-family: "Poppins";
+
+}
+
+.sPic img {
+    width: 80%;
+    height: 70%;
+    position: relative;
+    left: 5%;
+
+}
+
+.insneak {
+    position: relative;
+    font-size: 2.5vh;
+    top: -7%;
+    padding: 80px 90px;
+
+}
+
+.end {
+    width: 100%;
+    height: 5%;
+    background-color: #474e5d;
+    justify-content: center;
+    display: grid;
+    place-content: center;
+}
+
+.end h4 {
+    text-align: justify;
+    position: center;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+
+}
+
+.floating-btn{
+
+    z-index: 1;
+    width: 80px;
+    height: 80px;
+    background-color:  #304050;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 23px;
+    box-shadow: 0 10px 25px rgb(17 30 36 / 64%);
+    position: fixed;
+    right: 20px;
+    bottom:20px;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.floating-btn:active{
+    background: #e94b31
+}
+
+.floating-btn:hover {
+    box-shadow: 0 10px 25px rgb(17 30 36 / 64%);
+    background-color: #9da5ad;
+    -webkit-transform: translatey(-5px);
+    transform: translatey(-5px);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}

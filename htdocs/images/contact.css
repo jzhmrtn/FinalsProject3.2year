@@ -1,0 +1,149 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(184, 184, 184, 0.2) 50%, rgba(184, 184, 184,0.2) 50%), url("bg.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.container .dBoard {
+    width: 100%;
+    height: fit-content;
+    float: left;
+    background-color:  #304050;
+    text-align: center;
+}
+
+.dBoard h3 {
+    z-index: 1;
+    float: none;
+    font-size: 3.5vh;
+    color: #F4F4F4;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+img.animated-gif{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 90%;
+    box-shadow: 0 16px 5px #3040505e;
+}
+
+.syuman h3 {
+    position: absolute;
+    top: 1%;
+    left: 33%;
+    text-align: center;
+    z-index: 1;
+    color: #304050;
+    text-transform: uppercase;
+    /* font-family: verdana; */
+    font-family: "Arial black", "Arial Bold", Arial, sans-serif;
+    font-size: 13vh;
+}
+
+.contactUs h3{
+    font-size: 10vh;
+    color: #304050;
+    position: absolute;
+    top: 17%;
+    left: 23%;
+    text-align: center;
+    align-items: center;
+    font-family: "Arial black", "Arial Bold", Arial, sans-serif;
+    line-height: 1.2;
+}
+
+.mainCont{    
+    position: absolute;
+    top: 100%;
+    font-size: 2vh; 
+    padding-top:3% ;
+    display: flex;
+    width: 100%;
+    height: 55%;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mainCont h1{    
+    font-size: 3vh; 
+}
+
+.mainCont .c1{
+    width: 50%;
+}
+
+.mainCont .c1 .tel, .map{
+    background-color: rgba(211, 211, 211, 0.295);
+    width: 50%;
+    border: 8px solid #304050;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    float: right;
+}
+
+.mainCont .c2{
+    width: 50%;
+}
+
+.mainCont .c2 .gmail, .follow{
+    background-color: rgba(211, 211, 211, 0.295);
+    width: 50%;
+    border: 8px solid #304050;
+    margin-bottom: 3%;
+    float: left;
+}
+
+.floating-btn{
+    z-index: 1;
+    width:80px;
+    height: 80px;
+    background:  #304050;;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 23px;
+    box-shadow: 0 10px 25px rgb(17 30 36 / 64%);
+    position: fixed;
+    right: 20px;
+    bottom:20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.floating-btn:active{
+    background: #e94b31
+}
+
+.container:hover .floating-btn{
+    box-shadow: 0 10px 25px rgb(17 30 36 / 64%);
+    -webkit-transform: translatey(5px);
+    transform: translatey(5px);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
