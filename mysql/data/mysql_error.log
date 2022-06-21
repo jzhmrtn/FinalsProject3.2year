@@ -1,0 +1,728 @@
+2022-04-22 20:45:39 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-22 20:45:39 0 [Note] InnoDB: Uses event mutexes
+2022-04-22 20:45:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-22 20:45:39 0 [Note] InnoDB: Number of pools: 1
+2022-04-22 20:45:39 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-22 20:45:39 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-22 20:45:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-22 20:45:39 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
+2022-04-22 20:45:40 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-22 20:45:40 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-22 20:45:40 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-22 20:45:40 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-22 20:45:40 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-22 20:45:40 0 [Note] InnoDB: Waiting for purge to start
+2022-04-22 20:45:40 0 [Note] InnoDB: 10.4.22 started; log sequence number 300297; transaction id 170
+2022-04-22 20:45:40 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-22 20:45:40 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-22 20:45:40 0 [Note] InnoDB: Buffer pool(s) load completed at 220422 20:45:40
+2022-04-22 20:45:40 0 [Note] Server socket created on IP: '::'.
+2022-04-23 19:43:09 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-23 19:43:09 0 [Note] InnoDB: Uses event mutexes
+2022-04-23 19:43:09 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-23 19:43:09 0 [Note] InnoDB: Number of pools: 1
+2022-04-23 19:43:09 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-23 19:43:09 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-23 19:43:09 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-23 19:43:09 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=324076
+2022-04-23 19:43:09 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-23 19:43:09 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-23 19:43:09 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-23 19:43:09 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-23 19:43:09 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-23 19:43:09 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-23 19:43:09 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-23 19:43:09 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-23 19:43:09 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-23 19:43:09 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-23 19:43:09 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-23 19:43:09 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-23 19:43:09 0 [Note] InnoDB: Waiting for purge to start
+2022-04-23 19:43:09 0 [Note] InnoDB: 10.4.22 started; log sequence number 324085; transaction id 251
+2022-04-23 19:43:09 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-23 19:43:09 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-23 19:43:09 0 [Note] Server socket created on IP: '::'.
+22022-04-23 19:44:35 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-23 19:44:35 0 [Note] InnoDB: Uses event mutexes
+2022-04-23 19:44:35 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-23 19:44:35 0 [Note] InnoDB: Number of pools: 1
+2022-04-23 19:44:35 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-23 19:44:35 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-23 19:44:35 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-23 19:44:35 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=324110
+2022-04-23 19:44:35 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-23 19:44:35 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-23 19:44:35 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-23 19:44:35 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-23 19:44:35 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-23 19:44:35 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-23 19:44:35 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-23 19:44:35 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-23 19:44:35 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-23 19:44:35 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-23 19:44:35 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-23 19:44:35 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-23 19:44:35 0 [Note] InnoDB: Waiting for purge to start
+2022-04-23 19:44:35 0 [Note] InnoDB: 10.4.22 started; log sequence number 324119; transaction id 251
+2022-04-23 19:44:35 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-23 19:44:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-23 19:44:35 0 [Note] Server socket created on IP: '::'.
+2022-04-23 20:24:41 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-23 20:24:41 0 [Note] InnoDB: Uses event mutexes
+2022-04-23 20:24:41 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-23 20:24:41 0 [Note] InnoDB: Number of pools: 1
+2022-04-23 20:24:41 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-23 20:24:41 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-23 20:24:41 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-23 20:24:41 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=324128
+2022-04-23 20:24:41 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-23 20:24:41 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-23 20:24:41 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-23 20:24:41 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-23 20:24:41 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-23 20:24:41 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-23 20:24:41 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-23 20:24:41 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-23 20:24:41 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-23 20:24:41 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-23 20:24:41 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-23 20:24:41 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-23 20:24:41 0 [Note] InnoDB: Waiting for purge to start
+2022-04-23 20:24:41 0 [Note] InnoDB: 10.4.22 started; log sequence number 324137; transaction id 251
+2022-04-23 20:24:41 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-23 20:24:41 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-23 20:24:41 0 [Note] Server socket created on IP: '::'.
+2022-04-23 21:39:39 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-23 21:39:39 0 [Note] InnoDB: Uses event mutexes
+2022-04-23 21:39:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-23 21:39:39 0 [Note] InnoDB: Number of pools: 1
+2022-04-23 21:39:39 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-23 21:39:39 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-23 21:39:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-23 21:39:39 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=324146
+2022-04-23 21:39:39 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-23 21:39:39 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-23 21:39:39 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-23 21:39:39 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-23 21:39:39 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-23 21:39:39 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-23 21:39:39 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-23 21:39:39 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-23 21:39:39 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-23 21:39:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-23 21:39:39 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-23 21:39:39 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-23 21:39:39 0 [Note] InnoDB: Waiting for purge to start
+2022-04-23 21:39:39 0 [Note] InnoDB: 10.4.22 started; log sequence number 324155; transaction id 251
+2022-04-23 21:39:39 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-23 21:39:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-23 21:39:39 0 [Note] Server socket created on IP: '::'.
+2022-04-24  0:07:14 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-24  0:07:14 0 [Note] InnoDB: Uses event mutexes
+2022-04-24  0:07:14 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-24  0:07:14 0 [Note] InnoDB: Number of pools: 1
+2022-04-24  0:07:14 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-24  0:07:14 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-24  0:07:14 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-24  0:07:14 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=324164
+2022-04-24  0:07:14 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-24  0:07:14 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24  0:07:14 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-24  0:07:14 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-24  0:07:14 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24  0:07:14 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-24  0:07:14 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-24  0:07:14 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-24  0:07:14 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-24  0:07:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-24  0:07:14 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-24  0:07:14 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-24  0:07:14 0 [Note] InnoDB: 10.4.22 started; log sequence number 324173; transaction id 251
+2022-04-24  0:07:14 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-24  0:07:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-24  0:07:14 0 [Note] Server socket created on IP: '::'.
+2022-04-24 13:52:51 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-24 13:52:51 0 [Note] InnoDB: Uses event mutexes
+2022-04-24 13:52:51 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-24 13:52:51 0 [Note] InnoDB: Number of pools: 1
+2022-04-24 13:52:51 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-24 13:52:51 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-24 13:52:51 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-24 13:52:51 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=324182
+2022-04-24 13:52:52 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-24 13:52:52 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 13:52:52 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-24 13:52:52 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-24 13:52:52 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 13:52:52 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-24 13:52:52 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-24 13:52:52 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-24 13:52:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-24 13:52:52 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-24 13:52:52 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-24 13:52:52 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-24 13:52:52 0 [Note] InnoDB: Waiting for purge to start
+2022-04-24 13:52:52 0 [Note] InnoDB: 10.4.22 started; log sequence number 324191; transaction id 251
+2022-04-24 13:52:52 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-24 13:52:52 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-24 13:52:52 0 [Note] Server socket created on IP: '::'.
+2022-04-24 13:52:52 0 [Note] InnoDB: Buffer pool(s) load completed at 220424 13:522022-04-24 13:56:24 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-24 13:56:24 0 [Note] InnoDB: Uses event mutexes
+2022-04-24 13:56:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-24 13:56:24 0 [Note] InnoDB: Number of pools: 1
+2022-04-24 13:56:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-24 13:56:24 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-24 13:56:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-24 13:56:24 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=773260
+2022-04-24 13:56:25 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-24 13:56:25 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 13:56:25 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-24 13:56:25 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-24 13:56:25 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 13:56:25 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-24 13:56:25 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-24 13:56:25 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-24 13:56:25 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-24 13:56:25 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-24 13:56:25 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-24 13:56:25 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-24 13:56:25 0 [Note] InnoDB: Waiting for purge to start
+2022-04-24 13:56:25 0 [Note] InnoDB: 10.4.22 started; log sequence number 773269; transaction id 698
+2022-04-24 13:56:25 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-24 13:56:25 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-24 13:56:25 0 [Note] Server socket created on IP: '::'.
+2022-04-24 14:11:36 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-24 14:11:36 0 [Note] InnoDB: Uses event mutexes
+2022-04-24 14:11:36 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-24 14:11:36 0 [Note] InnoDB: Number of pools: 1
+2022-04-24 14:11:36 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-24 14:11:36 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-24 14:11:36 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-24 14:11:36 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=773278
+2022-04-24 14:11:36 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-24 14:11:36 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 14:11:36 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-24 14:11:36 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-24 14:11:36 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 14:11:36 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-24 14:11:36 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-24 14:11:36 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-24 14:11:36 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-24 14:11:36 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-24 14:11:36 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-24 14:11:36 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-24 14:11:36 0 [Note] InnoDB: Waiting for purge to start
+2022-04-24 14:11:36 0 [Note] InnoDB: 10.4.22 started; log sequence number 773287; transaction id 698
+2022-04-24 14:11:36 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-24 14:11:36 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-24 14:11:36 0 [Note] Server socket created on IP: '::'.
+2022-04-24 14:11:43 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-24 14:11:43 0 [Note] InnoDB: Uses event mutexes
+2022-04-24 14:11:43 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-24 14:11:43 0 [Note] InnoDB: Number of pools: 1
+2022-04-24 14:11:43 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-24 14:11:43 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-24 14:11:43 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-24 14:11:43 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=773278
+2022-04-24 14:11:43 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-24 14:11:43 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 14:11:43 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-24 14:11:43 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-24 14:11:43 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 14:11:43 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-24 14:11:43 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-24 14:11:43 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-24 14:11:43 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-24 14:11:43 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-24 14:11:43 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-24 14:11:43 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-24 14:11:43 0 [Note] InnoDB: Waiting for purge to start
+2022-04-24 14:11:43 0 [Note] InnoDB: 10.4.22 started; log sequence number 773287; transaction id 698
+2022-04-24 14:11:43 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-24 14:11:43 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-24 14:11:43 0 [Note] Server socket created on IP: '::'.
+2022-04-24 18:29:31 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-24 18:29:31 0 [Note] InnoDB: Uses event mutexes
+2022-04-24 18:29:31 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-24 18:29:31 0 [Note] InnoDB: Number of pools: 1
+2022-04-24 18:29:31 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-24 18:29:31 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-24 18:29:31 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-24 18:29:31 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=773296
+2022-04-24 18:29:31 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-24 18:29:31 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 18:29:31 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-24 18:29:31 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-24 18:29:31 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 18:29:31 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-24 18:29:31 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-24 18:29:31 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-24 18:29:31 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-24 18:29:31 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-24 18:29:31 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-24 18:29:31 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-24 18:29:31 0 [Note] InnoDB: Waiting for purge to start
+2022-04-24 18:29:31 0 [Note] InnoDB: 10.4.22 started; log sequence number 773305; transaction id 698
+2022-04-24 18:29:31 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-24 18:29:31 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-24 18:29:31 0 [Note] Server socket created on IP: '::'.
+2022-04-24 23:59:12 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-24 23:59:12 0 [Note] InnoDB: Uses event mutexes
+2022-04-24 23:59:12 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-24 23:59:12 0 [Note] InnoDB: Number of pools: 1
+2022-04-24 23:59:12 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-24 23:59:12 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-24 23:59:12 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-24 23:59:12 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=773314
+2022-04-24 23:59:12 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-24 23:59:12 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 23:59:12 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-24 23:59:12 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-24 23:59:12 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-24 23:59:12 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-24 23:59:12 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-24 23:59:12 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-24 23:59:12 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-24 23:59:12 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-24 23:59:12 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-24 23:59:12 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-24 23:59:12 0 [Note] InnoDB: Waiting for purge to start
+2022-04-24 23:59:12 0 [Note] InnoDB: 10.4.22 started; log sequence number 773323; transaction id 698
+2022-04-24 23:59:12 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-24 23:59:12 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-24 23:59:12 0 [Note] Server socket created on IP: '::'.
+2022-04-25  0:25:07 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-25  0:25:07 0 [Note] InnoDB: Uses event mutexes
+2022-04-25  0:25:07 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-25  0:25:07 0 [Note] InnoDB: Number of pools: 1
+2022-04-25  0:25:07 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-25  0:25:07 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-25  0:25:07 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-25  0:25:07 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=773332
+2022-04-25  0:25:07 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-25  0:25:07 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-25  0:25:07 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-25  0:25:07 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-25  0:25:07 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-25  0:25:07 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-25  0:25:07 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-25  0:25:07 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-25  0:25:07 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-25  0:25:07 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-25  0:25:07 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-25  0:25:07 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-25  0:25:07 0 [Note] InnoDB: Waiting for purge to start
+2022-04-25  0:25:07 0 [Note] InnoDB: 10.4.22 started; log sequence number 773341; transaction id 698
+2022-04-25  0:25:07 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-25  0:25:07 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-25  0:25:07 0 [Note] Server socket created on IP: '::'.
+2022-04-26 16:14:44 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-26 16:14:44 0 [Note] InnoDB: Uses event mutexes
+2022-04-26 16:14:44 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-26 16:14:44 0 [Note] InnoDB: Number of pools: 1
+2022-04-26 16:14:44 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-26 16:14:44 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-26 16:14:44 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-26 16:14:44 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=773350
+2022-04-26 16:14:44 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-26 16:14:44 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-26 16:14:44 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-26 16:14:44 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-26 16:14:44 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-26 16:14:44 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-26 16:14:44 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-26 16:14:44 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-26 16:14:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-26 16:14:44 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-26 16:14:44 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-26 16:14:44 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-26 16:14:44 0 [Note] InnoDB: Waiting for purge to start
+2022-04-26 16:14:44 0 [Note] InnoDB: 10.4.22 started; log sequence number 773359; transaction id 698
+2022-04-26 16:14:44 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-26 16:14:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-26 16:14:44 0 [Note] Server socket created on IP: '::'.
+2022-04-26 16:12022-04-27  0:37:14 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-27  0:37:14 0 [Note] InnoDB: Uses event mutexes
+2022-04-27  0:37:14 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-27  0:37:14 0 [Note] InnoDB: Number of pools: 1
+2022-04-27  0:37:14 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-27  0:37:14 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-27  0:37:14 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-27  0:37:14 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=773368
+2022-04-27  0:37:14 0 [Note] InnoDB: Starting final batch to recover 1 pages from redo log.
+2022-04-27  0:37:14 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-27  0:37:14 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-27  0:37:14 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-27  0:37:14 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-27  0:37:14 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-27  0:37:14 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-27  0:37:14 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-27  0:37:14 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-27  0:37:14 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-27  0:37:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-27  0:37:14 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-27  0:37:14 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-27  0:37:14 0 [Note] InnoDB: Waiting for purge to start
+2022-04-27  0:37:14 0 [Note] InnoDB: 10.4.22 started; log sequence number 773622; transaction id 722
+2022-04-27  0:37:14 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-27  0:37:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-27  0:37:14 0 [Note] Server socket created on IP: '::'.
+2022-04-27  0:37:19 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-27  0:37:19 0 [Note] InnoDB: Uses event mutexes
+2022-04-27  0:37:19 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-27  0:37:19 0 [Note] InnoDB: Number of pools: 1
+2022-04-27  0:37:19 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-27  0:37:19 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-27  0:37:19 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-27  0:37:19 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=773685
+2022-04-27  0:37:19 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-27  0:37:19 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-27  0:37:19 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-27  0:37:19 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-27  0:37:19 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-27  0:37:19 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-27  0:37:19 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-27  0:37:19 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-27  0:37:19 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-27  0:37:19 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-27  0:37:19 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-27  0:37:19 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-27  0:37:19 0 [Note] InnoDB: Waiting for purge to start
+2022-04-27  0:37:20 0 [Note] InnoDB: 10.4.22 started; log sequence number 773732; transaction id 722
+2022-04-27  0:37:20 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-27  0:37:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-27  0:37:20 0 [Note] Server socket created on IP: '::'.
+2022-04-27  0:37:21 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-27  0:37:21 0 [Note] InnoDB: Uses event mutexes
+2022-04-27  0:37:21 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-27  0:37:21 0 [Note] InnoDB: Number of pools: 1
+2022-04-27  0:37:21 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-27  0:37:21 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-27  0:37:21 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-27  0:37:21 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=773685
+2022-04-27  0:37:21 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-27  0:37:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-27  0:37:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-27  0:37:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-27  0:37:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-27  0:37:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-27  0:37:21 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-27  0:37:21 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-27  0:37:21 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-27  0:37:21 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-27  0:37:21 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-27  0:37:21 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-27  0:37:21 0 [Note] InnoDB: Waiting for purge to start
+2022-04-27  0:37:22 0 [Note] InnoDB: 10.4.22 started; log sequence number 773732; transaction id 722
+2022-04-27  0:37:22 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-27  0:37:22 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-27  0:37:22 0 [Note] Server socket created on IP: '::'.
+2022-04-27 23:27:44 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-27 23:27:44 0 [Note] InnoDB: Uses event mutexes
+2022-04-27 23:27:44 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-27 23:27:44 0 [Note] InnoDB: Number of pools: 1
+2022-04-27 23:27:44 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-27 23:27:44 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-27 23:27:44 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-27 23:27:44 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=785551
+2022-04-27 23:27:44 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-27 23:27:44 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-27 23:27:44 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-27 23:27:44 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-27 23:27:44 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-27 23:27:44 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-27 23:27:44 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-27 23:27:44 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-27 23:27:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-27 23:27:44 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-27 23:27:44 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-27 23:27:44 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-27 23:27:44 0 [Note] InnoDB: Waiting for purge to start
+2022-04-27 23:27:44 0 [Note] InnoDB: 10.4.22 started; log sequence number 785560; transaction id 773
+2022-04-27 23:27:44 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-27 23:27:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-27 23:27:44 0 [Note] InnoDB: Buffer pool(s) load completed at 220427 23:27:44
+2022-04-27 23:27:44 0 [Note] Server socket created on IP: '::'.
+2022-04-28 16:39:43 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-28 16:39:43 0 [Note] InnoDB: Uses event mutexes
+2022-04-28 16:39:43 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-28 16:39:43 0 [Note] InnoDB: Number of pools: 1
+2022-04-28 16:39:43 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-28 16:39:43 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-28 16:39:43 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-28 16:39:43 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=811500
+2022-04-28 16:39:43 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-28 16:39:43 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-28 16:39:43 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-28 16:39:43 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-28 16:39:43 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-28 16:39:43 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-28 16:39:43 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-28 16:39:43 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-28 16:39:43 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-28 16:39:43 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-28 16:39:43 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-28 16:39:43 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-28 16:39:43 0 [Note] InnoDB: Waiting for purge to start
+2022-04-28 16:39:43 0 [Note] InnoDB: 10.4.22 started; log sequence number 811509; transaction id 948
+2022-04-28 16:39:43 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-28 16:39:43 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-28 16:39:43 0 [Note] InnoDB: Buffer pool(s) load completed at 220428 16:39:43
+2022-04-28 16:39:43 0 [Note] Server socket created on IP: '::'.
+2022-04-28 21:04:05 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-28 21:04:05 0 [Note] InnoDB: Uses event mutexes
+2022-04-28 21:04:05 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-28 21:04:05 0 [Note] InnoDB: Number of pools: 1
+2022-04-28 21:04:05 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-28 21:04:05 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-28 21:04:05 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-28 21:04:05 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=811809
+2022-04-28 21:04:05 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-28 21:04:05 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-28 21:04:05 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-28 21:04:05 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-28 21:04:05 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-28 21:04:05 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-28 21:04:05 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-28 21:04:05 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-28 21:04:05 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-28 21:04:05 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-28 21:04:05 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-28 21:04:05 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-28 21:04:05 0 [Note] InnoDB: Waiting for purge to start
+2022-04-28 21:04:05 0 [Note] InnoDB: 10.4.22 started; log sequence number 811818; transaction id 954
+2022-04-28 21:04:05 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-28 21:04:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-28 21:04:05 0 [Note] Server socket created on IP: '::'.
+2022-04-29  1:40:23 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-29  1:40:23 0 [Note] InnoDB: Uses event mutexes
+2022-04-29  1:40:23 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-29  1:40:23 0 [Note] InnoDB: Number of pools: 1
+2022-04-29  1:40:23 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-29  1:40:23 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-29  1:40:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-29  1:40:23 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=820890
+2022-04-29  1:40:23 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-29  1:40:23 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-29  1:40:23 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-29  1:40:23 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-29  1:40:23 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-29  1:40:23 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-29  1:40:23 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-29  1:40:23 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-29  1:40:23 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-29  1:40:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-29  1:40:23 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-29  1:40:23 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-29  1:40:23 0 [Note] InnoDB: Waiting for purge to start
+2022-04-29  1:40:23 0 [Note] InnoDB: 10.4.22 started; log sequence number 820899; transaction id 990
+2022-04-29  1:40:23 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-29  1:40:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-29  1:40:23 0 [Note] Server socket created on IP: '::'.
+2022-04-29  1:40:28 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-29  1:40:28 0 [Note] InnoDB: Uses event mutexes
+2022-04-29  1:40:28 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-29  1:40:28 0 [Note] InnoDB: Number of pools: 1
+2022-04-29  1:40:28 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-29  1:40:28 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-29  1:40:28 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-29  1:40:28 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=820908
+2022-04-29  1:40:28 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-29  1:40:28 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-29  1:40:28 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-29  1:40:28 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-29  1:40:28 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-29  1:40:28 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-29  1:40:28 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-29  1:40:28 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-29  1:40:28 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-29  1:40:28 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-29  1:40:28 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-29  1:40:28 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-29  1:40:28 0 [Note] InnoDB: Waiting for purge to start
+2022-04-29  1:40:28 0 [Note] InnoDB: 10.4.22 started; log sequence number 820917; transaction id 990
+2022-04-29  1:40:28 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-29  1:40:28 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-29  1:40:28 0 [Note] Server socket created on IP: '::'.
+2022-04-29 21:15:55 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-29 21:15:55 0 [Note] InnoDB: Uses event mutexes
+2022-04-29 21:15:55 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-29 21:15:55 0 [Note] InnoDB: Number of pools: 1
+2022-04-29 21:15:55 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-29 21:15:55 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-29 21:15:55 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-29 21:15:55 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=820926
+2022-04-29 21:15:55 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-29 21:15:55 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-29 21:15:55 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-29 21:15:55 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-29 21:15:55 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-29 21:15:55 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-29 21:15:55 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-29 21:15:55 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-29 21:15:55 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-29 21:15:55 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-29 21:15:55 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-29 21:15:55 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-29 21:15:55 0 [Note] InnoDB: Waiting for purge to start
+2022-04-29 21:15:55 0 [Note] InnoDB: 10.4.22 started; log sequence number 820935; transaction id 990
+2022-04-29 21:15:55 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-29 21:15:55 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-29 21:15:55 0 [Note] Server socket created on IP: '::'.
+2022-04-30 20:57:47 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-04-30 20:57:47 0 [Note] InnoDB: Uses event mutexes
+2022-04-30 20:57:47 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-04-30 20:57:47 0 [Note] InnoDB: Number of pools: 1
+2022-04-30 20:57:47 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-04-30 20:57:47 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-04-30 20:57:47 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-04-30 20:57:47 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=832875
+2022-04-30 20:57:47 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-04-30 20:57:47 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-30 20:57:47 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-04-30 20:57:47 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-04-30 20:57:47 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-04-30 20:57:47 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-04-30 20:57:47 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-04-30 20:57:47 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-04-30 20:57:47 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-04-30 20:57:47 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-04-30 20:57:47 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-04-30 20:57:47 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-04-30 20:57:47 0 [Note] InnoDB: Waiting for purge to start
+2022-04-30 20:57:48 0 [Note] InnoDB: 10.4.22 started; log sequence number 832884; transaction id 1059
+2022-04-30 20:57:48 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-04-30 20:57:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-04-30 20:57:48 0 [Note] Server socket created on IP: '::'.
+2022-04-30 20:57:48 0 [Note] InnoDB: Buffer pool(s) load completed at 220430 20:57:48
+2022-04-30 20:57:48 0 [Note] Reading of all Master_info entries succeeded
+2022-04-30 20:57:48 0 [Note] Added new Master_info '' to hash table
+2022-04-30 20:57:48 0 [Note] c:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.22-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-05-04 12:17:04 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-04 12:17:04 0 [Note] InnoDB: Uses event mutexes
+2022-05-04 12:17:04 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-04 12:17:04 0 [Note] InnoDB: Number of pools: 1
+2022-05-04 12:17:04 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-05-04 12:17:04 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-05-04 12:17:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-04 12:17:04 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=832893
+2022-05-04 12:17:04 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-05-04 12:17:04 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-05-04 12:17:04 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-05-04 12:17:04 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-05-04 12:17:04 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-05-04 12:17:04 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-05-04 12:17:04 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-05-04 12:17:04 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-05-04 12:17:04 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-04 12:17:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-04 12:17:04 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-04 12:17:04 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-05-04 12:17:04 0 [Note] InnoDB: Waiting for purge to start
+2022-05-04 12:17:04 0 [Note] InnoDB: 10.4.22 started; log sequence number 832902; transaction id 1059
+2022-05-04 12:17:04 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-05-04 12:17:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-05-04 12:17:04 0 [Note] InnoDB: Buffer pool(s) load completed at 220504 12:17:04
+2022-05-04 12:17:04 0 [Note] Server socket created on IP: '::'.
+2022-05-08  0:03:15 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-08  0:03:15 0 [Note] InnoDB: Uses event mutexes
+2022-05-08  0:03:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-08  0:03:15 0 [Note] InnoDB: Number of pools: 1
+2022-05-08  0:03:15 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-05-08  0:03:15 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-05-08  0:03:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-08  0:03:15 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=837544
+2022-05-08  0:03:15 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-05-08  0:03:15 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-05-08  0:03:15 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-05-08  0:03:15 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-05-08  0:03:15 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-05-08  0:03:15 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-05-08  0:03:15 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-05-08  0:03:15 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-05-08  0:03:15 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-08  0:03:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-08  0:03:15 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-08  0:03:15 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-05-08  0:03:15 0 [Note] InnoDB: Waiting for purge to start
+2022-05-08  0:03:15 0 [Note] InnoDB: 10.4.22 started; log sequence number 837553; transaction id 1081
+2022-05-08  0:03:15 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-05-08  0:03:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-05-08  0:03:15 0 [Note] Server socket created on IP: '::'.
+2022-05-08  0:09:38 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-08  0:09:38 0 [Note] InnoDB: Uses event mutexes
+2022-05-08  0:09:38 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-08  0:09:38 0 [Note] InnoDB: Number of pools: 1
+2022-05-08  0:09:38 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-05-08  0:09:38 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-05-08  0:09:38 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-08  0:09:38 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=837562
+2022-05-08  0:09:38 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-05-08  0:09:38 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-05-08  0:09:38 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-05-08  0:09:38 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-05-08  0:09:38 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-05-08  0:09:38 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-05-08  0:09:38 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-05-08  0:09:38 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-05-08  0:09:38 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-08  0:09:38 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-08  0:09:38 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-08  0:09:38 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-05-08  0:09:38 0 [Note] InnoDB: Waiting for purge to start
+2022-05-08  0:09:38 0 [Note] InnoDB: 10.4.22 started; log sequence number 837571; transaction id 1081
+2022-05-08  0:09:38 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-05-08  0:09:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-05-08  0:09:38 0 [Note] Server socket created on IP: '::'.
+2022-05-10 21:37:32 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-10 21:37:32 0 [Note] InnoDB: Uses event mutexes
+2022-05-10 21:37:32 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-10 21:37:32 0 [Note] InnoDB: Number of pools: 1
+2022-05-10 21:37:32 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-05-10 21:37:32 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-05-10 21:37:32 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-10 21:37:32 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=837897
+2022-05-10 21:37:32 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-05-10 21:37:32 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-05-10 21:37:32 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-05-10 21:37:32 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-05-10 21:37:32 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-05-10 21:37:32 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-05-10 21:37:32 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-05-10 21:37:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-05-10 21:37:32 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-10 21:37:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-10 21:37:32 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-10 21:37:32 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-05-10 21:37:32 0 [Note] InnoDB: Waiting for purge to start
+2022-05-10 21:37:32 0 [Note] InnoDB: 10.4.22 started; log sequence number 837906; transaction id 1104
+2022-05-10 21:37:32 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-05-10 21:37:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-05-10 21:37:32 0 [Note] Server socket created on IP: '::'.
+2022-05-22 23:57:39 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-05-22 23:57:39 0 [Note] InnoDB: Uses event mutexes
+2022-05-22 23:57:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-05-22 23:57:39 0 [Note] InnoDB: Number of pools: 1
+2022-05-22 23:57:39 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-05-22 23:57:39 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-05-22 23:57:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-05-22 23:57:39 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=838258
+2022-05-22 23:57:39 0 [ERROR] InnoDB: Operating system error number 2 in a file operation.
+2022-05-22 23:57:39 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-05-22 23:57:39 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\db\accounts.ibd' OS error: 71
+2022-05-22 23:57:39 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-05-22 23:57:39 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-05-22 23:57:39 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``db`.`accounts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-05-22 23:57:39 0 [Warning] InnoDB: Ignoring tablespace for `db`.`accounts` because it could not be opened.
+2022-05-22 23:57:40 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-05-22 23:57:40 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-05-22 23:57:40 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-05-22 23:57:40 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-05-22 23:57:40 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-05-22 23:57:40 0 [Note] InnoDB: Waiting for purge to start
+2022-05-22 23:57:40 0 [Note] InnoDB: 10.4.22 started; log sequence number 838267; transaction id 1110
+2022-05-22 23:57:40 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-05-22 23:57:40 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-05-22 23:57:40 0 [Note] InnoDB: Buffer pool(s) load completed at 220522 23:57:40
+2022-05-22 23:57:40 0 [Note] Server socket created on IP: '::'.
